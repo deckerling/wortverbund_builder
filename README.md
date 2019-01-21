@@ -7,5 +7,9 @@ A bit of an exemplary project (regarding [Theodor Fontane](https://en.wikipedia.
 
 *wortverbund_builder* is based on GUIs so you can easily provide it to researchers who aren’t used to work with Python codes (you could, for example, create an executable file for them).
 
+## "wb2sc_file_converter.py"
+"wb2sc_file_converter.py" is a simple, self-explanatory tool to convert files created by *wortverbund_builder* into files readable by [*sign_compare*](https://github.com/deckerling/sign_compare) to calculate similarities. Make sure that "sign_compare.py", wortverbund_builder.py", and "wb2sc_file_converter.py" have access to all the required files either by saving them in the same directory or by adjusting the paths to the directories "sc_files" and "wb_files" in the code of "wb2sc_file_converter.py" (lines 40, 60, 70, 71, 72, 123, 125, 134, 135 and 156).  
+Just like *sign_compare* and "wortverbund_builder.py", "wb2sc_file_converter.py" is based on GUIs.
+
 ## License
 The work contained in this package is licensed under the Apache License, Version 2.0 (see the file "[LICENSE](LICENSE)").
